@@ -39,7 +39,7 @@ const Services = () => {
           {services.map((service) => (
             <Card 
               key={service.title} 
-              className="border-border hover:shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-1"
+              className="border-0 shadow-[var(--shadow-card)] hover:shadow-[var(--shadow-soft)] transition-all duration-300 hover:-translate-y-2"
             >
               <CardHeader>
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">

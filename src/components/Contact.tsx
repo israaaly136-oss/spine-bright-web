@@ -16,7 +16,7 @@ const Contact = () => {
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
           {/* Contact Form */}
-          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-soft)] border border-border">
+          <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-card)] border-0">
             <h3 className="text-2xl font-semibold mb-6">Send Us a Message</h3>
             <form className="space-y-4">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -47,7 +47,7 @@ const Contact = () => {
 
           {/* Contact Info */}
           <div className="space-y-6">
-            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] border border-border">
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border-0">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <MapPin className="w-6 h-6 text-primary" />
@@ -62,7 +62,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] border border-border">
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border-0">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Phone className="w-6 h-6 text-primary" />
@@ -76,7 +76,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] border border-border">
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border-0">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Mail className="w-6 h-6 text-primary" />
@@ -90,7 +90,7 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-soft)] border border-border">
+            <div className="bg-card rounded-2xl p-6 shadow-[var(--shadow-card)] border-0">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                   <Clock className="w-6 h-6 text-primary" />

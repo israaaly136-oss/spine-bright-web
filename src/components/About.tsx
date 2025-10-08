@@ -62,7 +62,7 @@ const About = () => {
             <img 
               src={pjaImage} 
               alt="P.J.A Naprapati - Licensed naprapath at Back on Track clinic in Enskededalen"
-              className="w-full rounded-2xl shadow-[var(--shadow-soft)] border border-border"
+              className="w-full rounded-2xl shadow-[var(--shadow-soft)] border-0"
             />
           </div>
         </div>
