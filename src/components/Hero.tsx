@@ -7,8 +7,8 @@ const Hero = () => {
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
+        <img 
+          src={heroImage} 
           alt="Back on Track naprapathy clinic interior in Enskededalen, Stockholm"
           className="w-full h-full object-cover"
         />
@@ -18,24 +18,20 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-20 px-4 md:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-2 flex justify-center">
-            <img
-              src={backOnTrackLogo}
-              alt="Back on Track - Naprapathy Care by P.J.A Naprapati"
+          <div className="mb-4 flex justify-center">
+            <img 
+              src={backOnTrackLogo} 
+              alt="Back on Track - Naprapathy Care by P.J.A Naprapati" 
               className="w-full max-w-lg md:max-w-xl h-auto"
             />
           </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
-            Expert naprapathic care by P.J.A Naprapati. Restore balance, reduce pain, and optimize your health
-            naturally.
+            Expert naprapathic care by P.J.A Naprapati. 
+            Restore balance, reduce pain, and optimize your health naturally.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="hero" size="lg" asChild>
-              <a
-                href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868" target="_blank" rel="noopener noreferrer">
                 Book Appointment
               </a>
             </Button>
