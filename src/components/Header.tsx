@@ -8,11 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img 
-              src={logo} 
-              alt="Back on Track - Naprapathy Care by P.J.A Naprapati" 
-              className="h-40 w-auto"
-            />
+            <img src={logo} alt="Back on Track - Naprapathy Care by P.J.A Naprapati" className="h-50 w-auto" />
           </div>
 
           {/* Navigation */}
@@ -30,7 +26,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <Button variant="default" size="lg" asChild className="font-semibold">
-            <a href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Book Now
             </a>
           </Button>
