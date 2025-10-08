@@ -16,16 +16,16 @@ const Hero = () => {
       </div>
 
       {/* Content */}
-      <div className="container relative z-10 px-4 md:px-6">
+      <div className="container relative z-20 px-4 md:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 flex justify-center">
+          <div className="mb-4 flex justify-center">
             <img 
               src={backOnTrackLogo} 
               alt="Back on Track - Naprapathy Care by P.J.A Naprapati" 
               className="w-full max-w-lg md:max-w-xl h-auto"
             />
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
             Expert naprapathic care by P.J.A Naprapati. 
             Restore balance, reduce pain, and optimize your health naturally.
           </p>
