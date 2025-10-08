@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/clinic-interior.png";
+import backOnTrackLogo from "@/assets/back-on-track-text-logo.png";
 
 const Hero = () => {
   return (
@@ -17,12 +18,13 @@ const Hero = () => {
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Get Your Life{" "}
-            <span className="bg-clip-text text-transparent bg-[var(--gradient-hero)]">
-              Back on Track
-            </span>
-          </h1>
+          <div className="mb-6">
+            <img 
+              src={backOnTrackLogo} 
+              alt="Back on Track" 
+              className="w-full max-w-2xl h-auto"
+            />
+          </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
             Expert naprapathic care by P.J.A Naprapati. 
             Restore balance, reduce pain, and optimize your health naturally.
