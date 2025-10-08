@@ -108,6 +108,22 @@ const Contact = () => {
             </div>
           </div>
         </div>
+
+        {/* Google Maps Embed */}
+        <div className="mt-12 max-w-6xl mx-auto">
+          <div className="rounded-3xl overflow-hidden border border-border/50 shadow-lg">
+            <iframe
+              src="https://maps.google.com/maps?q=Sofielundsv%C3%A4gen+7,+121+32,+Enskededalen&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              width="100%"
+              height="450"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Clinic Location - Sofielundsvägen 7, Enskededalen"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
