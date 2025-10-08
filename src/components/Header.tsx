@@ -11,7 +11,7 @@ const Header = () => {
             <img 
               src={logo} 
               alt="Back on Track - Naprapathy Care by P.J.A Naprapati" 
-              className="h-20 w-auto"
+              className="h-40 w-auto"
             />
           </div>
 
