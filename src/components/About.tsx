@@ -1,4 +1,5 @@
 import { Award, Clock, Heart } from "lucide-react";
+import pjaImage from "@/assets/pja-naprapath.png";
 
 const About = () => {
   return (
@@ -58,13 +59,11 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="aspect-square rounded-2xl bg-secondary/50 backdrop-blur-sm border border-border p-8 flex items-center justify-center">
-              <div className="text-center">
-                <div className="text-6xl font-bold text-primary mb-4">Expert</div>
-                <div className="text-xl font-semibold mb-2">Naprapathic Care</div>
-                <div className="text-muted-foreground">Helping you get back on track</div>
-              </div>
-            </div>
+            <img 
+              src={pjaImage} 
+              alt="P.J.A Naprapati - Licensed naprapath at Back on Track clinic in Enskededalen"
+              className="w-full rounded-2xl shadow-[var(--shadow-soft)] border border-border"
+            />
           </div>
         </div>
       </div>

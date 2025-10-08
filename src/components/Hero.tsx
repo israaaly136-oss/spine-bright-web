@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-chiro.jpg";
+import heroImage from "@/assets/clinic-interior.png";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute inset-0 z-0">
         <img 
           src={heroImage} 
-          alt="Modern chiropractic clinic interior"
+          alt="Back on Track naprapathy clinic interior in Enskededalen, Stockholm"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/50" />
@@ -28,12 +28,14 @@ const Hero = () => {
             Restore balance, reduce pain, and optimize your health naturally.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button variant="hero" size="lg">
+          <Button variant="hero" size="lg" asChild>
+            <a href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868" target="_blank" rel="noopener noreferrer">
               Book Appointment
-            </Button>
-            <Button variant="outline" size="lg">
-              Learn More
-            </Button>
+            </a>
+          </Button>
+          <Button variant="outline" size="lg" asChild>
+            <a href="#about">Learn More</a>
+          </Button>
           </div>
         </div>
       </div>

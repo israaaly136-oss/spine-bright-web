@@ -55,8 +55,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Location</h4>
                   <p className="text-muted-foreground">
-                    123 Wellness Street<br />
-                    Health City, HC 12345
+                    Sofielundsvägen 7<br />
+                    121 32, Enskededalen
                   </p>
                 </div>
               </div>
@@ -70,7 +70,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Phone</h4>
                   <p className="text-muted-foreground">
-                    (555) 123-4567
+                    <a href="tel:+46734294410" className="hover:text-primary transition-colors">073-429 44 10</a>
                   </p>
                 </div>
               </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Email</h4>
                   <p className="text-muted-foreground">
-                    info@backontrack.com
+                    <a href="mailto:info@backontrack.life" className="hover:text-primary transition-colors">info@backontrack.life</a>
                   </p>
                 </div>
               </div>
