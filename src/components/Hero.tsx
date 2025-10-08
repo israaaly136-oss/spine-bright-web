@@ -25,7 +25,7 @@ const Hero = () => {
               className="w-full max-w-lg md:max-w-xl h-auto"
             />
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-6 leading-relaxed max-w-2xl mx-auto">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-4 leading-relaxed max-w-2xl mx-auto mt-4">
             Expert naprapathic care by P.J.A Naprapati. Restore balance, reduce pain, and optimize your health
             naturally.
           </p>
