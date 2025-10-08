@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/back-on-track-text-logo.png";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={logo} alt="Back on Track - Naprapathy Care by P.J.A Naprapati" className="h-40 w-auto" />
+            <img src={logo} alt="Back on Track - Naprapathy Care by P.J.A Naprapati" className="h-16 w-auto" />
           </div>
 
           {/* Navigation */}
