@@ -17,27 +17,27 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="max-w-3xl">
-          <div className="mb-6">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-8 flex justify-center">
             <img 
               src={backOnTrackLogo} 
-              alt="Back on Track" 
-              className="w-full max-w-2xl h-auto"
+              alt="Back on Track - Naprapathy Care by P.J.A Naprapati" 
+              className="w-full max-w-lg md:max-w-xl h-auto"
             />
           </div>
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
+          <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
             Expert naprapathic care by P.J.A Naprapati. 
             Restore balance, reduce pain, and optimize your health naturally.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-          <Button variant="hero" size="lg" asChild>
-            <a href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868" target="_blank" rel="noopener noreferrer">
-              Book Appointment
-            </a>
-          </Button>
-          <Button variant="outline" size="lg" asChild>
-            <a href="#about">Learn More</a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button variant="hero" size="lg" asChild>
+              <a href="https://www.bokadirekt.se/places/back-on-track-by-pja-naprapati-130868" target="_blank" rel="noopener noreferrer">
+                Book Appointment
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="#about">Learn More</a>
+            </Button>
           </div>
         </div>
       </div>
