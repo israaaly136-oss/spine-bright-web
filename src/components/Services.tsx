@@ -29,9 +29,9 @@ const Services = () => {
     <section className="py-24 px-4 md:px-6 bg-[var(--gradient-subtle)]">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" id="services">Our Services</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive chiropractic solutions designed to help you live your best life
+            Comprehensive naprapathic care designed to help you live your best life
           </p>
         </div>
 

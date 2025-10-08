@@ -18,13 +18,13 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Your Path to{" "}
+            Get Your Life{" "}
             <span className="bg-clip-text text-transparent bg-[var(--gradient-hero)]">
-              Pain-Free Living
+              Back on Track
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-            Expert chiropractic care tailored to your unique needs. 
+            Expert naprapathic care by P.J.A Naprapati. 
             Restore balance, reduce pain, and optimize your health naturally.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">

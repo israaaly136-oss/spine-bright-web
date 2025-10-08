@@ -8,9 +8,9 @@ const Contact = () => {
     <section className="py-24 px-4 md:px-6 bg-[var(--gradient-subtle)]">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Get in Touch</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4" id="contact">Get in Touch</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your journey to better health? Contact us today
+            Ready to get back on track? Contact us today
           </p>
         </div>
 
@@ -84,7 +84,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Email</h4>
                   <p className="text-muted-foreground">
-                    info@chiroclinic.com
+                    info@backontrack.com
                   </p>
                 </div>
               </div>

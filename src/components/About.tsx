@@ -6,17 +6,16 @@ const About = () => {
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6" id="about">
               Expert Care You Can Trust
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              With over 15 years of experience, our team is dedicated to providing 
-              exceptional chiropractic care that addresses the root cause of your discomfort, 
-              not just the symptoms.
+              P.J.A Naprapati brings years of experience in naprapathic care, dedicated to 
+              addressing the root cause of your discomfort, not just the symptoms.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We combine evidence-based techniques with a personalized approach to help 
-              you achieve lasting results and optimal wellness.
+              Combining evidence-based techniques with a personalized approach to help 
+              you achieve lasting results and get back on track to optimal wellness.
             </p>
 
             <div className="space-y-4">
@@ -27,7 +26,7 @@ const About = () => {
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Licensed & Certified</h3>
                   <p className="text-muted-foreground">
-                    Board-certified chiropractors with extensive training
+                    Licensed naprapath with extensive training and expertise
                   </p>
                 </div>
               </div>
@@ -61,9 +60,9 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl bg-secondary/50 backdrop-blur-sm border border-border p-8 flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl font-bold text-primary mb-4">15+</div>
-                <div className="text-xl font-semibold mb-2">Years of Experience</div>
-                <div className="text-muted-foreground">Helping thousands achieve wellness</div>
+                <div className="text-6xl font-bold text-primary mb-4">Expert</div>
+                <div className="text-xl font-semibold mb-2">Naprapathic Care</div>
+                <div className="text-muted-foreground">Helping you get back on track</div>
               </div>
             </div>
           </div>
