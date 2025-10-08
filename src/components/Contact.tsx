@@ -54,10 +54,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-lg mb-2">Location</h4>
-                  <p className="text-muted-foreground">
+                  <a 
+                    href="https://www.google.com/maps/search/?api=1&query=Sofielundsvägen+7,+121+32,+Enskededalen" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
                     Sofielundsvägen 7<br />
                     121 32, Enskededalen
-                  </p>
+                  </a>
                 </div>
               </div>
             </div>
