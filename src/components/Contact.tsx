@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 const Contact = () => {
@@ -14,37 +12,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          {/* Contact Form */}
-          <div className="bg-background rounded-3xl p-8 border border-border/50">
-            <h3 className="text-2xl font-semibold mb-6 text-foreground">Send Us a Message</h3>
-            <form className="space-y-4">
-              <div className="grid sm:grid-cols-2 gap-4">
-                <div>
-                  <Input placeholder="First Name" className="w-full bg-background border-border/50" />
-                </div>
-                <div>
-                  <Input placeholder="Last Name" className="w-full bg-background border-border/50" />
-                </div>
-              </div>
-              <div>
-                <Input type="email" placeholder="Email Address" className="w-full bg-background border-border/50" />
-              </div>
-              <div>
-                <Input type="tel" placeholder="Phone Number" className="w-full bg-background border-border/50" />
-              </div>
-              <div>
-                <Textarea 
-                  placeholder="Tell us how we can help you..."
-                  className="min-h-[120px] bg-background border-border/50"
-                />
-              </div>
-              <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground" size="lg">
-                Send Message
-              </Button>
-            </form>
-          </div>
-
+        <div className="max-w-3xl mx-auto">
           {/* Contact Info Cards */}
           <div className="space-y-4">
             {/* Location Card */}
